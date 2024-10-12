@@ -47,6 +47,10 @@ main{
     flex-direction: column;
 }
 
+main h1{
+    color: antiquewhite;
+}
+
             /* Top side of cads (Profile, about, tools and skills)*/
 .top{
     width: 100%;
