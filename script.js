@@ -98,13 +98,12 @@ function addDataToHTMl() {
 
 // import profile picture from github using github api.
 
-const githubApiUrl = 'https://api.github.com/users/amiralamf4'; 
-fetch(githubApiUrl)
-.then(response=>(response.json()))
-.then(data=>{
-    const profilePic=document.querySelector('.card');
-    profilePic.style.backgroundImage = `url(${data.avatar_url})`; // insert pic url as background image
-    
+// const githubApiUrl = 'https://api.github.com/users/amiralamf4'; 
+// fetch(githubApiUrl)
+// .then(response=>(response.json()))
+// .then(data=>{
+//     const profilePic=document.querySelector('.card');
+//     profilePic.style.backgroundImage = `url(${data.avatar_url})`; // insert pic url as background image
+// })
 
 
-})
